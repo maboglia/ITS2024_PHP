@@ -2,7 +2,7 @@
 <?php
 
     for ($i=0; $i<1000;$i++) {
-        echo "<li>hello php $i !</li>";
+        echo '<li>hello php $i !</li>';
     }
 
 ?>
