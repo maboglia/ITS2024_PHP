@@ -8,9 +8,9 @@
 </head>
 <body>
     
-pippo
 
-   
+
+    <h1><?= TITOLO ?></h1>
 
 </body>
 </html>
