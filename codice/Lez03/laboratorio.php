@@ -49,7 +49,7 @@
 
 ];
  function addRegione($regione) {
-     global $regioni;
+     global $regioni;//global mi fa vedere la variabile nel corpo della funzione
     foreach ($regione as $key => $value) {
         $regioni[$key]= $value;
         
