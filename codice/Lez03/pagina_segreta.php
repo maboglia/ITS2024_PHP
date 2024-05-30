@@ -1,19 +1,4 @@
-<?php
-session_start();
-
-if (!isset($_SESSION['loggato'])) {
-    header('location:login.html');
-}
-
-if (!isset($_SESSION['todoList'])   ){
-    $_SESSION['todoList'] = [];
-} 
-
-if ( isset($_POST['todo'])){
-    $_SESSION['todoList'][] = $_POST['todo'];
-}
-
-?>
+<?php include("./config.php"); ?>
 
 <h1>Pagina segreta</h1>
 
@@ -24,9 +9,12 @@ if ( isset($_POST['todo'])){
 
 </form>
 
-<?php
-    foreach ($_SESSION['todoList'] as $todo) {
-        echo ''. $todo .'<br>';
-    }
+<ul>
+    
+    <?php foreach ($_SESSION['todoList'] as $todo) : ?>
 
-?>
+        <li><?=$todo?></li>
+        
+    <?php endforeach; ?>
+       
+</ul>
