@@ -1,1 +1,10 @@
 h2 {color:red;}
+
+.etichetta_menu {
+    margin: 0 2px; 
+    text-decoration: none;
+}
+
+.etichetta_menu:hover {
+    background-color: cornflowerblue;
+}

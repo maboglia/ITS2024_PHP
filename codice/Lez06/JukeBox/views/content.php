@@ -7,8 +7,10 @@ if (isset($_GET['page'])  &&   !empty($_GET['page'])){
 }
 
 switch ($pagina) {
-    case 'gallery':
-        include './views/pages/gallery.php';
+    case 'canzoni':
+        $ctrl = new CanzoneCtrl();
+        $canzoni = $ctrl->tutteLeCanzoni();
+        include './views/pages/canzoni.php';
         break;
     
     default:
