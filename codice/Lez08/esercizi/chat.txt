@@ -1,0 +1,137 @@
+Tu
+09:10
+Esercizio 51: Lunghezza di una Stringa
+Scrivi una funzione che accetta una stringa e restituisce la sua lunghezza.
+Simone Ferretti
+09:14
+<?php
+
+function stringLen($string)
+{
+    return strlen($string);
+}
+
+echo stringLen('ciao');
+
+?>
+Alessio Burbulia
+09:17
+fatto
+Alessandro Raffo
+09:17
+fatto
+Gabriele Chiabrero
+09:17
+fatto
+Ambra Duca
+09:17
+fatto
+Stefano Cherio
+09:17
+fatto
+Mauro Bogliaccino
+09:20
+Esercizio 55: Contare le Parole in una Stringa
+Scrivi una funzione che accetta una stringa e conta il numero di parole in essa.
+Vincenzo Bonura
+09:22
+function countWords($string){
+    return str_word_count($string);
+}
+
+$string = "Scrivi una funzione che accetta una stringa e conta il numero di parole in essa";
+
+echo countWords($string);
+Vincenzo Bonura
+09:23
+function countWords($string){
+    $words = explode(" ", $string);
+    return count($words);
+}
+Vincenzo Bonura
+09:24
+function countWords($string){
+    for($i = 0; $i < strlen($string); $i++){
+        if($string[$i] == " "){
+            $count++;
+        }
+    }
+    return $count;
+}
+Ambra Duca
+09:26
+in più forse bisogna inizializzare count a 0
+Mauro Bogliaccino
+09:34
+Esercizio 41: Data e Ora Corrente
+Scrivi uno script che stampa la data e l'ora corrente nel formato `Y-m-d H:i:s`.
+Ambra Duca
+09:36
+<?php
+echo "Date and current time is " . date('Y-m-d H:i:s');
+?>
+Mauro Bogliaccino
+09:36
+Esercizio 42: Differenza tra Due Date
+Crea una funzione che calcola la differenza in giorni tra due date.
+Alessio Burbulia
+09:38
+$differenza = $dataInizio->diff($dataFine);
+Ambra Duca
+09:40
+<?php
+function differenzaDate($date1, $date2) {
+    $dateTime1 = new DateTime($date1);
+    $dateTime2 = new DateTime($date2);
+    $$difference = $dateTime1->diff($dateTime2);
+    return $difference->days;
+}
+
+$date1 = '2024-05-27';
+$date2 = '2024-06-10';
+
+echo "Difference in days between  " . $date1 . " and " . $date2 . " is " . differenzaDate( $date1, $date2 );
+?>
+typo
+Vincenzo Bonura
+09:41
+usa il valore di $difference come nome di variabile
+Stefano Cherio
+09:43
+<?php
+
+$date1 = new DateTime("2011-03-24");
+$date2 = new DateTime("2024-06-26");
+$interval = $date1->diff($date2);
+
+echo "Differenza: " . $interval->y . " anni, " . $interval->m . " mesi, " . $interval->d . " giorni.";
+Mauro Bogliaccino
+09:46
+Esercizio 26: Rimuovere Duplicati
+Crea una funzione che accetta un array e rimuove i valori duplicati.
+Safia Mandarun
+09:49
+prof mi assento un attimo
+Ambra Duca
+09:51
+perché mi da problemi di conversione e non voglio solo trasformare ins tringa
+Simone Ferretti
+09:51
+<?php
+
+function removeDupes($arr)
+{
+    $found = [];
+    foreach ($arr as $el) {
+        if (isset($found[$el])) {
+        } else {
+            $found[$el] = $el;
+        }
+    }
+
+    var_dump($found);
+}
+
+removeDupes([1, 1, 1, 2, 3, 4, 5, 6]);
+
+?>
