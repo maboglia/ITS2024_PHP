@@ -1,0 +1,39 @@
+
+    
+    <h1 id="titoloForm">Aggiungi libro</h1>
+
+    <form id="form" class="form-group" action="../controller/Libreria.php" method="post">
+
+        <label class="form-label" for="titolo">titolo</label>
+        <input class="form-control" type="text" name="titolo" id="titolo">
+        <br>
+
+        <label class="form-label" for="pagine">pagine</label>
+        <input class="form-control" type="number" name="pagine" id="pagine">
+        <br>
+
+        <label class="form-label" for="prezzo">prezzo</label>
+        <input class="form-control" type="number" step="0.05" name="prezzo" id="prezzo">
+        <br>
+
+        <label class="form-label" for="autore">autore</label>
+        <input class="form-control" type="text" name="autore" id="autore">
+        <br>
+        <input class="btn btn-primary" type="submit" value="Add Libro">
+
+    </form>
+
+<script>
+
+    const FORM = document.getElementById('form');
+    const TITOLO = document.getElementById('titoloForm');
+    FORM.style.display = 'none';
+
+    TITOLO.addEventListener('click', showHide);
+    function showHide() {
+        console.log('Form', FORM.style.display);
+        FORM.style.display == 'none' ? FORM.style.display = 'block' : FORM.style.display = 'none';
+    }
+
+
+</script>
