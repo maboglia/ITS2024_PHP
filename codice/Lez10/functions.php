@@ -7,6 +7,53 @@ function testConnessione(){
     var_dump($connessione);
 }
 
+function errore($stato, $messaggio){
+    $data = [
+        'status'=> $stato,
+        'message' => $messaggio 
+    ];
+
+    header("HTTP/1.0 {$stato} {$messaggio}" );
+    return $data;
+}
+
+function addLibro($libro){
+
+    global $connessione;
+
+    $titolo = mysqli_real_escape_string($connessione, $libro['titolo']);
+    $autore = mysqli_real_escape_string($connessione, $libro['autore']);
+    $prezzo = mysqli_real_escape_string($connessione, $libro['prezzo']);
+    $pagine = mysqli_real_escape_string($connessione, $libro['pagine']);
+
+    if (empty(trim($titolo))){
+       return json_encode( errore(422, 'Titolo non corretto'));
+    }
+
+    if (empty(trim($autore))){
+       return json_encode( errore(422, 'Autore non corretto'));
+    }
+
+    $update = "INSERT INTO libri (titolo, pagine, prezzo, autore) VALUES ('$titolo','$pagine','$prezzo','$autore') ";
+
+    $res = mysqli_query($connessione, $update);
+
+    if ($res){
+        $data = [
+            'status'=> 201,
+            'message' => 'Resource created',
+        ];
+
+        header('HTTP/1.0 201 OK');
+        return json_encode($data);
+    } else {
+        return json_encode(errore(500, 'non ce l\'ho fatta, scusa'));
+    }
+
+
+    //var_dump($libro);
+
+}
 function getLibri(){
     global $connessione;
     $query = 'SELECT * FROM libri';
@@ -27,7 +74,7 @@ function getLibri(){
             'data' => $res 
         ];
 
-        header('HTTP/1.0 200 Book list fetched succesfully');
+        header('HTTP/1.0 200 OK');
         return json_encode($data);
 
        } else {
