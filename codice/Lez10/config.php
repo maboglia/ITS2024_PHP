@@ -8,7 +8,7 @@ define('DB_NAME', 'webdev');
 $connessione = mysqli_connect(HOST, USER, PASS, DB_NAME);
 
 if ($connessione){
-    echo 'SEI CONNESSO';
+    //echo 'SEI CONNESSO';
 } else {
     echo 'NON SEI CONNESSO PERCHE\' ' . mysqli_error($connessione);
 }
