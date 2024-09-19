@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1>Libri</h1>
+
+    <ul id="lista">
+
+    </ul>
+
+    <script>
+
+        const URL = 'http://localhost:8080/ITS2024_PHP/codice/Lez13/controller/libri.php';
+
+        fetch(URL)
+            .then(collezioneJSON => collezioneJSON.json())
+            .then(libriJS => {
+
+                for (const libro of libriJS) {
+                    
+                    const LI = document.createElement('li')
+                    LI.textContent = libro.titolo
+
+                    document.getElementById('lista').append(LI)
+
+                }
+
+
+            } )
+
+
+    </script>
+
+
+</body>
+</html>
