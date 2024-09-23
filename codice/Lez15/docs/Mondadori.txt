@@ -1,0 +1,96 @@
+L177,George Orwell,1984,Mondadori,,,0,Romanzo
+L119,Trilussa,I Sonetti,Mondadori,1922,,0,Poesia
+L487,Agatha Christie,"Addio, miss Marple",Mondadori,,,0,Gialli
+L268,Alberto Angela,Amore e sesso nell'antica Roma,Mondadori,,,0,Storia
+L388,Alberto Bevilacqua,Anima carnale,Mondadori,,,0,Romanzo
+L357,Carsten. Wartmann,Blender. La guida. Con CD-ROM.,Mondadori Informatica,,,0,Informatica
+L215,"Jorge Amado, C. M. Valentinetti",Cacao,Mondadori,,,0,Romanzo
+L274,aa vv,Colosseo-Palatino-Foro romano-Domus Aurea. Ediz. italiana,Mondadori Electa,,,0,Archeologia
+L495,Dan Brown,Crypto,Mondadori,,,0,Romanzo
+L472,vuoto,GLOBUS Enciclopedia dei paesi e degli itinerari: Stati Uniti e Canada,Mondadori,,,0,Viaggi
+L125,Roberto Saviano,Gomorra. Viaggio nell'impero economico e nel sogno di dominio della camorra,Mondadori,,,0,Sociologia
+L515,Corrado Augias,I Segreti di Londra,Mondadori,,,0,Viaggi
+L417,Alberto Bevilacqua,I sensi incantati,Mondadori,,,0,Romanzo
+L498,Dan Brown,Il Codice Da Vinci,Mondadori,,,0,Romanzo
+L69,Andrea Camilleri,Il colore del sole,Mondadori,,,0,Romanzo
+L328,Andrea Camilleri,"Il diavolo, certamente",Mondadori,,,0,Romanzo
+L403,Christian Jacq,Il Faraone Nero,Mondadori,,,0,Romanzo
+L410,Christian Jacq,Il Figlio Della Luce (Italian Edition),Mondadori,,,0,Romanzo
+L624,Carlos Ruiz Zafon,Il gioco dell'angelo,Mondadori,,,0,Romanzo
+L365,Ernesto Che Guevara,Latinoamericana,Mondadori,,,0,Autobiografico
+L130,Andrea Camilleri,Il medaglione,Mondadori,,,0,Romanzo
+L225,Ivano Dionigi,Il presente non basta. La lezione del latino,Mondadori,,,0,Lingue
+L491,Frederick Forsyth,Il pugno di Dio,Mondadori,,,0,Romanzo
+L113,"Dan Brown, A. Biavasco, V. Guani, N. Lamberti, A. Raffo, R. Scarabelli",Il simbolo perduto,Mondadori,,,0,Romanzo
+L131,Andrea Camilleri,Il tailleur grigio,Mondadori,,,0,Romanzo
+L269,"Alberto Angela, L. Tarlazzi",Impero. Viaggio nell'Impero di Roma seguendo una moneta,Mondadori,,,0,Storia
+L490,Jorge Volpi,In cerca di Klingsor,Mondadori,,,0,Romanzo
+L526,"Corrado Augias, Mauro Pesce",Inchiesta su Gesu? : chi era l?uomo che ha cambiato il mondo,Mondadori,,,0,Religione
+L132,Andrea Camilleri,La paura di Montalbano,Mondadori,,,0,Romanzo
+L84,Paolo Giordano,La solitudine dei numeri primi,Mondadori,,,0,Romanzo
+L496,Dan Brown,La Verita Del Ghiaccio,Arnoldo Mondadori Editore,,,0,Romanzo
+L405,Tacconi,La Verità Perduta,Mondadori,,,0,Romanzo
+L460,Gabriel Garcia Marquez,L'Amore ai Tempi del Colera,Mondadori,,,0,Romanzo
+L133,Andrea Camilleri,Le inchieste del commissario Collura,Mondadori,,,0,Romanzo
+L602,Ernest Hemingway,Le Nevi del Kilimangiaro / The Snows of Kilimanjaro [Bilingual Text],Mondadori,,,0,Romanzo
+L348,Fabio Volo,Le prime luci del mattino,Mondadori,,,0,Romanzo
+L530,Christian Jacq,L'Egitto dei grandi Faraoni,Mondadori,,,0,Archeologia
+L418,Alberto Bevilacqua,L'eros,Mondadori,,,0,Romanzo
+L152,Michele Brambilla,L'eskimo in redazione,Mondadori,,,0,Politica
+L463,"Hill B. Mako, J. Bacon, C. Burger",Linux Ubuntu. La guida ufficiale.,Mondadori Informatica,,,0,Informatica
+L499,Jonathan Nasaw,L'Isola della strage - Morte ai Caraibi,Mondadori,,,0,Gialli
+L611,Carlos Ruiz Zafon,L'ombra Del Vento,Mondadori,,,0,Romanzo
+L389,Christian Jacq,Maat,Mondadori,,,0,Romanzo
+L383,Carlos Ruiz Zafon,Marina,Mondadori,,,0,Romanzo
+L35,Maurizio Pallante,Meno e meglio. Decrescere per progredire,Mondadori,,,0,Saggi
+L469,MySQL AB,MySQL. Guida ufficiale,Mondadori Informatica,,,0,Informatica
+L392,Christin Jacq,Nefer,Mondadori,,,0,Romanzo
+L109,"Carlo Conti, E. Giovannini, L. Siano",Noi che... I migliori anni,Mondadori,,,0,Attualita
+L347,Margaret Mazzantini,Non Ti Muovere,Mondadori,,,0,Romanzo
+L532,Marquez Gabriel Garcia,Opere narrative. Vol. 1,Mondadori,,,0,Letteratura
+L533,Marquez Gabriel Garcia,Opere narrative. Vol. 2,Mondadori,,,0,Letteratura
+L390,Christin Jacq,Paneb,Mondadori,,,0,Romanzo
+L81,"Agatha Christie, M. G. Griffini, L. Lax",Quattro casi per Hercule Poirot,Mondadori,,,0,Gialli
+L536,Franz Kafka,Racconti,Mondadori,,,0,Racconti
+L408,vuoto,Ramses 4 Regina DI Abu Simbel (Italian Edition),Mondadori,,,0,Storia
+L409,vuoto,Ramses o Dimora Millenaria (Italian Edition),Mondadori,,,0,Storia
+L407,Christian Jacq,Ramses: L'ultimo nemico,Mondadori,,,0,Romanzo
+L235,Danila Comastri Montanari,Saturnalia,Mondadori,,,0,Romanzo
+L420,Luigi Pirandello,Sei Personaggi in Cerca d'Autore / Enrico IV (Italian Edition),Mondadori,,,0,Letteratura
+L105,Dino Buzzati,Sessanta Racconti,Mondadori,,,0,Racconti
+L398,Luciano De Crescenzo,Socrate,A. Mondadori,,,0,Filosofia
+L538,Giuseppe Gioachino Belli,Sonetti,Mondadori,,,0,Poesia
+L211,"Mary Beard, A. Piccato",SPQR. Storia dell'antica Roma,Mondadori,,,0,Storia
+L537,Erodoto,Storie. Testo greco a fronte. Vol. 1: Libri I-IV.,Mondadori,,,0,Letteratura
+L415,"Hermann Hesse, Bruna Bianchi",Sull'amore,Mondadori,,,0,Sociologia
+L578,Thomas Myer,Sviluppo Web con XML e PHP,Mondadori Informatica,,,0,Informatica
+L181,"William Shakespeare, G. Melchiori",Teatro completo. Testo inglese a fronte. 2.Le commedie romantiche,Mondadori,,,0,Classici
+L531,vuoto,Testi religiosi dell'antico Egitto,Mondadori,,,0,Religione
+L273,Jason Mott,The returned,Harlequin Mondadori,,,0,Romanzo
+L346,Niccolo Ammaniti,Ti Prendo E Ti Porto Via,Mondadori,,,0,Romanzo
+L488,Francesco Totti,Tutte le barzellette su Totti : raccolte da me,Mondadori,,,0,Attualita
+L535,Luigi Pirandello,Tutti i romanzi. Vol. 1,Mondadori,,,0,Letteratura
+L534,Luigi Pirandello,Tutti i romanzi. Vol. 2,Mondadori,,,0,Letteratura
+L267,Alberto Angela,"Una giornata nell'antica Roma. Vita quotidiana, segreti e curiosit",Mondadori,,,0,Storia
+L345,Margaret Mazzantini,Venuto Al Mondo,Mondadori,,,0,Romanzo
+L569,Ernest Hemingway,Verdi colline d'Africa,Mondadori,,,0,Romanzo
+L568,Francesco Balena,Visual Basic 6,Mondadori,,,0,Informatica
+L74,Andrea Camilleri,"Voi non sapete. Gli amici, i nemici, la mafia, il mondo nei pizzini di Bernardo Provenzano",Mondadori,,,0,Saggi
+L564,William R. Stanek,Windows Command line. Guida pratica,Mondadori Informatica,,,0,Informatica
+L666,Aleksandr Isaevic  Solzenicyn,Arcipelago Gulag,Mondadori,,,0,Storia
+L674,Erasmo da Rotterdam,Elogio della Follia,Mondadori,,,0,Saggi
+L703,Franco Berrino,Ventuno giorni per rinascere,Mondadori,,,0,Salute
+L719,Valerio Massimo Manfredi,Il mio nome è nessuno,Mondadori,,,0,Romanzo
+L733,Michel Stutz,Linux guida pratica,Mondadori,,,0,Informatica
+L742,Mauro Biglino,La Bibbia non parla di Dio,Mondadori,,,0,Storia
+L746,Cicerone,De Senectute De Amicitia,Mondadori,,,0,Classici
+L797,Valerio Massimo Manfredi,Antica Madre,Mondadori,2019,,0,Romanzo
+L807,Federico De Roberto,I Vicerè,Mondadori,,,0,Romanzo
+L835,Valerio Massimo Manfredi,Idi di Marzo,Mondadori,,,0,Storia
+L840,Jack London,Il tallone di ferro,Mondadori,,,0,Romanzo
+L842,Jack London,Il popolo dell'abisso,Mondadori,,,0,Romanzo
+L848,Giulio Cesare,Guerre in Gallia,Mondadori,,,0,Classici
+L871,Ken Follet,Fu sera e fu mattina,Mondadori,2020,,0,Romanzo
+L874,"G.Alfano, P.Italia, E.Russo, F.Tomasi",Letteratura italiana 2° volume,Mondadori,,,0,Letteratura
+L882,Valerio Massimo Manfredi,Quaranta giorni,Mondadori,,,0,Romanzo
+L883,"G.Alfano, P.Italia, E.Russo, F.Tomasi",Letteratura italiana 1° volume,Mondadori,2020,,0,Letteratura
