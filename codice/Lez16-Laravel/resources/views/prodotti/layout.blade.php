@@ -12,7 +12,7 @@
 </head>
 <body>
 <main class="container">
-      <h1>Hello world!</h1>
+      <h1>Prodotti</h1>
       @yield('contenuto')
     </main>
 </body>
